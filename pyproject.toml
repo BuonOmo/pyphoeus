@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyphoeus"
+version = "0.0.1"
+authors = [{ name = "Ulysse Buonomo", email = "buonomo.ulysse@gmail.com" }]
+description = "Port of the Ruby Typhoeus library to Python"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/BuonOmo/pyphoeus"
+Issues = "https://github.com/BuonOmo/pyphoeus/issues"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
